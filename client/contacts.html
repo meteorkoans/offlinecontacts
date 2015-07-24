@@ -1,0 +1,23 @@
+<head>
+    <title>Offline App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<template name="layout">
+    {{#ionBody}}
+        {{> ionNavBar class="bar-positive"}}
+        {{#ionNavView}}
+            {{> yield}}
+        {{/ionNavView}}
+    {{/ionBody}}
+</template>
+
+<template name="contacts">
+    {{#contentFor "headerTitle"}}
+        <h1 class="title">Contacts</h1>
+    {{/contentFor}}
+
+    {{#ionView}}
+        {{#ionContent}}{{/ionContent}}
+    {{/ionView}}
+</template>
