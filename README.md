@@ -10,3 +10,10 @@ meteor add fourseven:scss
 meteor add ground:db
 meteor add iron:router
 ```
+
+## Android
+
+```
+meteor add-platform android
+meteor run android
+```
