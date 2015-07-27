@@ -17,3 +17,10 @@ meteor add iron:router
 meteor add-platform android
 meteor run android
 ```
+
+## iOS
+
+```
+meteor add-platform ios
+meteor run ios
+```
